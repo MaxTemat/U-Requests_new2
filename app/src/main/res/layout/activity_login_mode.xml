@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginModeActivity"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="16dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="606dp"
+        android:layout_height="419dp"
+        android:layout_marginBottom="53dp"
+        android:src="@drawable/cercle2"
+        app:layout_constraintBottom_toTopOf="@+id/fragment_container_Fly"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="193dp"
+        android:layout_height="185dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="456dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container_Fly"
+        android:layout_width="319dp"
+        android:layout_height="430dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/fragment_mode_Cly"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="272dp"
+                android:layout_height="56dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Choose your login mode"
+                android:textColor="#86C4F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="260dp" />
+
+            <Spinner
+                android:id="@+id/spinner_mode"
+                android:layout_width="266dp"
+                android:layout_height="44dp"
+                android:background="#BCD2F8"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintVertical_bias="0.2"
+                tools:ignore="TouchTargetSizeCheck"
+                tools:layout_editor_absoluteX="30dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="266dp"
+                android:layout_height="8dp"
+                android:background="#673AB7"
+                android:text="TextView"
+                android:textColor="#673AB7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.547"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_mode"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="260dp"
+        android:layout_height="219dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="500dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cercle3" />
+
+    <Button
+        android:id="@+id/NextMode_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/contour"
+        android:text="NEXT"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_container_Fly"
+        app:layout_constraintVertical_bias="0.473" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

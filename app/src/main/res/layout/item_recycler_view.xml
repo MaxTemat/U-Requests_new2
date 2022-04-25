@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:contentPadding="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_Cly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A8B5F6">
+
+        <ImageView
+            android:id="@+id/image_file_recycler"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_baseline_insert_drive_file_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/object_Tv_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/contour_object"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="The object"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/image_file_recycler"
+            app:layout_constraintTop_toTopOf="@id/image_file_recycler" />
+
+        <TextView
+            android:id="@+id/note_request_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/contour"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Note final: 00/20"
+            android:textStyle="bold|italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/status_request_recycler" />
+
+        <TextView
+            android:id="@+id/status_request_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/contour_status"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="The status"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/image_file_recycler"
+            app:layout_constraintStart_toEndOf="@+id/image_file_recycler" />
+
+        <TextView
+            android:id="@+id/step_request_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:text="00/06 etapes"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/note_request_recycler" />
+
+        <TextView
+            android:id="@+id/createdat_request_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="created at 25/04/2022"
+            android:textColor="@color/gray"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/step_request_recycler" />
+
+        <ImageView
+            android:id="@+id/seeDetails_request_recycler_Iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_play_arrow_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

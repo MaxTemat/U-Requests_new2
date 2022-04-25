@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".EmailActivity1">
+
+    <EditText
+        android:id="@+id/email_mail_Et"
+        android:layout_width="198dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#757373"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Login with Email"
+        android:textAlignment="center"
+        android:textColor="#86C4F4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email_passwd_Et"
+        android:layout_width="196dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:textColorHint="#757373"
+        android:textColor="@color/black"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/email_mail_Et"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email_mail_Et"
+        app:layout_constraintTop_toBottomOf="@+id/email_mail_Et"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/emailNext_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Next"
+        android:background="@drawable/custom_background"
+        app:layout_constraintEnd_toEndOf="@+id/confirm_pass_Et"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="@+id/confirm_pass_Et"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_pass_Et" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="103dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="16dp"
+        android:background="#86C4F4"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="103dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="12dp"
+        android:background="#86C4F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="53dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="or"
+        android:textColorHint="#757373"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/emailNext_btn"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="@+id/emailNext_btn"
+        app:layout_constraintTop_toBottomOf="@+id/emailNext_btn" />
+
+
+    <TextView
+        android:id="@+id/emailPhone_link"
+        android:layout_width="260dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Login with phone number ?"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linear"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/linear"
+        app:layout_constraintTop_toBottomOf="@+id/linear"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <EditText
+        android:id="@+id/confirm_pass_Et"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColorHint="#757373"
+        android:textColor="@color/black"
+        android:hint="Confirm your password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/email_passwd_Et"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email_passwd_Et"
+        app:layout_constraintTop_toBottomOf="@+id/email_passwd_Et"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="170dp"
+        android:layout_height="164dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="272dp"
+        android:src="@drawable/cercle2"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/email_mail_Et"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="151dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="101dp"
+        android:src="@drawable/cercle2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailPhone_link" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="316dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="22dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        <ImageButton
+            android:id="@+id/emailGoogle_btn"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:background="@drawable/contour2"
+            android:src="@drawable/googleg_standard_color_18"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="435dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="55dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/contour2"
+            android:scaleType="fitXY"
+            android:src="@drawable/mails2"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="435dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonr"
+            android:layout_width="49dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/contour2"
+            android:scaleType="fitXY"
+            android:src="@drawable/mail0"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="213dp"
+            tools:layout_editor_absoluteY="434dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/contour2"
+            android:scaleType="fitXY"
+            android:src="@drawable/mails1"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="286dp"
+            tools:layout_editor_absoluteY="434dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

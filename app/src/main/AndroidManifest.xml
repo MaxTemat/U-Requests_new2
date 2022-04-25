@@ -12,16 +12,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.URequests">
         <activity
-            android:name=".GoogleSignInActivity"
+            android:name=".AddRequestActivity"
             android:exported="false" />
         <activity
-            android:name=".GoogleActivity"
+            android:name=".UserInfoActivity"
             android:exported="false" />
         <activity
-            android:name=".FacebookActivity"
+            android:name=".UserInfoActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.URequests.NoActionBar" />
+        <activity
+            android:name=".EmailActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".GoogleLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginModeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

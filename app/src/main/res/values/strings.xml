@@ -3,4 +3,79 @@
     <string name="facebook_app_id">493257442381707</string>
     <string name="fb_login_protocol_scheme">fb493257442381707</string>
     <string name="facebook_client_token">d7227f4f64a2e5173a02549a53b68f6b</string>
+
+    <string-array name="profile">
+        <item>Etudiant</item>
+        <item>Secretaire</item>
+        <item>Chef de departement</item>
+        <item>Agent de departement</item>
+        <item>Enseignant</item>
+        <item>Directeur</item>
+        <item>Agent de direction</item>
+        <item>Agent IT</item>
+    </string-array>
+
+    <string-array name="mode">
+        <item>Email</item>
+        <item>Phone number</item>
+    </string-array>
+
+    <string-array name="departments">
+        <item>TIC</item>
+        <item>3IL</item>
+    </string-array>
+
+    <string-array name="exams">
+        <item>Session normale</item>
+        <item>Controle continu</item>
+    </string-array>
+
+    <string-array name="sessions">
+        <item>fevrier 2022</item>
+        <item>janvier 2022</item>
+    </string-array>
+
+    <string-array name="options">
+        <item>PAM</item>
+        <item>RSI</item>
+        <item>TI</item>
+        <item>Prepa 3IL</item>
+    </string-array>
+
+    <string-array name="schools">
+        <item>3IAC</item>
+        <item>ISTDI</item>
+        <item>ICIA</item>
+        <item>SEAS</item>
+        <item>PISTI</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Argentina</item>
+        <item>Australia</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>

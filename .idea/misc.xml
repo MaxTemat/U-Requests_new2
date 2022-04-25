@@ -3,10 +3,47 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/drawable/contour.xml" value="0.1775" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/drawable/contour2.xml" value="0.1775" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/drawable/contour_object.xml" value="0.1755" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/drawable/contour_status.xml" value="0.1755" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/drawable/custom_background.xml" value="0.1775" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout-land/activity_splash.xml" value="0.1" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_add_request.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_email.xml" value="0.22" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_email1.xml" value="0.17074275362318841" />
         <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_facebook.xml" value="0.20416666666666666" />
         <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_google.xml" value="0.2" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_google_login.xml" value="0.17074275362318841" />
         <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_google_sign_in.xml" value="0.20416666666666666" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_login_mode.xml" value="0.25" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_logo_mode.xml" value="0.17074275362318841" />
         <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_phone.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_profile.xml" value="0.18" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_user_info.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_userinfo.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/activity_username.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/app_bar_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/content_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/fragment_blank.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/fragment_choose.xml" value="0.25" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/fragment_email.xml" value="0.1" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/fragment_gallery.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/fragment_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/fragment_phone.xml" value="0.1" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/fragment_slideshow.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/item_recycler_view.xml" value="0.22" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/layout_navigation_header.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/nav_header_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/student_requests.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/layout/temp_layout.xml" value="0.17074275362318841" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/menu/home.xml" value="0.20416666666666666" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/menu/my_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/m@ngas/TEMAT/pam 2/android/URequests4/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
